@@ -1,0 +1,161 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: montserrat;
+}
+
+nav {
+    background: #C4A484;
+    height: 80px;
+    width: 100%;
+    display: flex;
+}
+
+label.name {
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+    padding-right: 300px;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+    item-align: left;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+    font-weight: bold;
+    font-size: 25px;
+    list-style: none;
+    margin-left: 10px;
+    padding-left: 10px;
+    text-align: left;
+    justify-content: left;
+    item-align: left;
+}
+
+nav ul li a {
+    color: black;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+}
+
+a.active, a:hover {
+    background: white;
+}
+
+@media screen and (max-width: 600px) {
+    .nav a {
+      float: none;
+      width: 100%;
+    }
+}
+
+.showcase{
+	background-position:center right;
+	text-align: center;
+    overflow: auto;
+}
+
+.container{
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+    padding-top: 10px;
+}
+
+.showcase h1{
+	color:#fff;
+	font-size:50px;
+	line-height: 1.6em;
+	padding-top:30px;
+    padding-bottom: 0px;
+    text-shadow: 2px 2px 5px #000000;
+}
+
+#main-banner {
+  padding-top: 0px;
+  width: 100%;
+  max-height: 800px;
+  overflow: hidden;
+}
+#main-banner img{
+  width: 100%;
+}
+#slider {
+  overflow: hidden;
+}
+#slides {
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 18s slidy infinite;
+}
+#slides img{
+  width: 20%;
+  float: left;
+}
+
+@keyframes slidy {
+  0% { left: 0%; }
+  28% { left: 0%; }
+  33% { left: -100%; }
+  61% { left: -100%; }
+  66% { left: -200%; }
+  94% { lef: -200%; }
+  100% { left: 0%; }
+}
+
+#main{
+	float:left;
+	width:70%;
+	padding:0px 30px;
+	box-sizing: border-box;
+    padding-top: 10px;
+}
+
+#sidebar{
+	float:right;
+	width:30%;
+	background: #333;
+	color:#fff;
+	padding:20px;
+	box-sizing: border-box;
+}
+
+footer{
+	background: #333;
+	color:#fff;
+	text-align: center;
+	padding:20px;
+	margin-top:40px;
+}
+
+@media(max-width:600px){
+	#main{
+		width:100%;
+		float:none;
+	}
+
+	#sidebar{
+		width:100%;
+		float:none;
+	}
+}
+
