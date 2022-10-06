@@ -17,9 +17,9 @@ export default function Products() {
             <h2 className={styles.productname}>Lorem Ipsum</h2>
             <div className={styles.productprice}>$3.99</div>
             <div className={styles.buttons}>
-              <button className={styles.viewbutton}>View</button>
-              <button className={styles.wishbutton}>WishList</button>
-              <button className={styles.cartbutton}>Cart</button>
+              <button className={styles.viewbutton}>View Details</button>
+              {/* <button className={styles.wishbutton}>WishList</button> */}
+              <button className={styles.cartbutton}>Add to Cart</button>
             </div>
           </div>
         ))}

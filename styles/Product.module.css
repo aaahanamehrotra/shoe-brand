@@ -42,15 +42,16 @@
   border: none;
   padding: 10px;
   border-radius: 4px;
+  width: 40%;
 }
 
 .viewbutton {
   background-color: #2192ff;
 }
-
+/* 
 .wishbutton {
   background-color: #937dc2;
-}
+} */
 
 .cartbutton {
   background-color: #7fb77e;
