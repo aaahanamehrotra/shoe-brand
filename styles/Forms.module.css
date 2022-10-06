@@ -1,0 +1,55 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid white;
+  width: 300px;
+  margin: auto;
+}
+
+.label {
+  display: block;
+}
+
+.inpgrp {
+  margin-block: 5%;
+  width: 100%;
+}
+
+.contactform {
+  padding-block: 4%;
+  padding-inline: 10%;
+}
+
+.inp {
+  width: 100%;
+  margin-block: 10px;
+  background: transparent;
+  border: 1px solid white;
+  border-radius: 2px;
+  height: 24px;
+}
+
+.textarea {
+  width: 100%;
+  margin-block: 10px;
+  background: transparent;
+  border: 1px solid white;
+  border-radius: 2px;
+  height: 80px;
+}
+
+.submit {
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  width: 50%;
+  cursor: pointer;
+  margin: auto;
+}

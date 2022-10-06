@@ -14,7 +14,7 @@ export default function Products() {
               height={240}
               className={styles.productimage}
             ></Image>
-            <h2 className={styles.productname}>Lorem Ipsum</h2>
+            <h3 className={styles.productname}>Lorem Ipsum</h3>
             <div className={styles.productprice}>$3.99</div>
             <div className={styles.buttons}>
               <button className={styles.viewbutton}>View Details</button>

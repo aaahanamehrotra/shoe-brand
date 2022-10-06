@@ -17,6 +17,7 @@
 
 .productname {
   margin: 0;
+  margin-top: 4px;
   text-align: center;
 }
 
@@ -25,7 +26,7 @@
 }
 
 .productprice {
-  padding-inline: 8px;
+  padding-inline: 16px;
   text-align: end;
   margin-top: 5px;
 }
@@ -37,22 +38,23 @@
 }
 
 .viewbutton,
-.wishbutton,
 .cartbutton {
   border: none;
   padding: 10px;
   border-radius: 4px;
   width: 40%;
+  cursor: pointer;
 }
 
 .viewbutton {
-  background-color: #2192ff;
+  border: 1px solid #2192ff;
+  color: #2192ff;
+  background: transparent;
 }
-/* 
-.wishbutton {
-  background-color: #937dc2;
-} */
-
+.viewbutton:hover {
+  background-color: #2192ff;
+  color: white;
+}
 .cartbutton {
   background-color: #7fb77e;
 }
